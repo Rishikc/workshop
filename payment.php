@@ -83,7 +83,7 @@ $secret_key="ttjdikjn59aa2q7mz4lb88w4lna7wywprao96ysla6nzf90w9o";
 		));
 		$response = curl_exec($curl);
 		
-$query1="INSERT INTO pay(name,mobile,coll,feedback) values('$name','$mobile','$coll','$feedback')";
+$query1="INSERT INTO pay(name,mobile,coll,email) values('$name','$mobile','$coll','$email')";
 $result=mysqli_query($dbc,$query1)
 or die('error querying 2');
 		echo $response;
