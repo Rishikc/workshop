@@ -49,7 +49,7 @@ $secret_key="ttjdikjn59aa2q7mz4lb88w4lna7wywprao96ysla6nzf90w9o";
 		    // User registered event(Example :General Fees,Accomodation)
 		    "user_event_charge"=>"",                  
 		    // Per Event charge (Example : 1,2)             
-		    "user_event_total_amount"=>"520",            
+		    "user_event_total_amount"=>"1",            
 		    // Total Charge (Example: 3)
 		    "user_acomdation_status"=>"Pending",             
 		    // User Accomdation Status
